@@ -1,0 +1,17 @@
+<form method="POST" enctype="multipart/form-data">
+  {% csrf_token %}
+  <input name="file" accept=".csv" type="file" id="csv" />
+  <button type="submit">upload</button>
+</form>
+<table class="table">
+  <tbody>
+    {% for i in header %}
+    <tr>
+      <th scope="row">{{ i }}</th>
+      {% for j in data|get_item:i %}
+      <td>{{j}}</td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
