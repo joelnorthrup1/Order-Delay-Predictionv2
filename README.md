@@ -29,5 +29,5 @@ https://colab.research.google.com/drive/1_osIophTvGe-aKVLyV9mu1pCpp4vRuTk?usp=sh
 
 
 Notebook contains multiple functions </br>
-1) spreproces_data: This function will performs prepocessing like replacing nans with mean values , standard scaling of the features, PCA and SMOTE for data augmentation, reshaping of the features. 
+1) spreproces_data: This function will performs prepocessing like replacing nans with mean values , standard scaling of the features, PCA and SMOTE for data augmentation, reshaping of the features.  </br>
 2). preprocessing: This function will initialize the model, train the model and finally evaluates the model performance.
