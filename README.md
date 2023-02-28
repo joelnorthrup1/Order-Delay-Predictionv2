@@ -1,6 +1,6 @@
 # Order-Delay-Predictionv2
 
-#Step # 1
+**#Step  1**
 First extract the external features and merge internal and external features. For Extraction run following command. </br>
 **!python /content/drive/MyDrive/Final_Code1/Main_Extraction.py -d 'dataset1.csv' -m '/content/drive/MyDrive/Final_Code1'**
 
