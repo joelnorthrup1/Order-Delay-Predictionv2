@@ -169,7 +169,7 @@ def merge_encode(file_dir,training_set):
 
         dataset=pd.read_csv(file_dir).reset_index() #,skiprows=lambda i: i>0 and random.random() > 1.0
         print("Dataset is loaded")
-        X,y=preprocess(dataset,"X6_train","y6_train",training_set)
+        X,y=preprocess(dataset,"X_train","y_train",training_set)
         return X,y
 
 
