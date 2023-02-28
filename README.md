@@ -9,3 +9,5 @@ First extract the external features and merge internal and external features. Fo
 **2.** Second command line argument -m: It takes the directory of the main folder of the code </br>
 
 After running this commands, different lookback features will extracted and will merge with internal features. (Meging_encoding.py code is commented for just one set of lookback features 3 Months lookback) 
+
+Extracted data will stored as X_train and X_test in current directory
