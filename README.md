@@ -11,3 +11,23 @@ First extract the external features and merge internal and external features. Fo
 After running this commands, different lookback features will extracted and will merge with internal features. (Meging_encoding.py code is commented for just one set of lookback features 3 Months lookback) 
 
 Extracted data will stored as X_train and X_test in current directory
+
+
+
+#Step 2
+
+To train model, set the path "https://drive.google.com/drive/folders/15dADrvanOm0QBDaYy6bktl15-ikeYJ2q?usp=share_link" in the following notebooks
+
+Training Notebook **Order_delay_Project3_Modified5(Model_Traing_3_6_Lookback_Dataset8_Training).ipynb**
+
+
+or 
+
+you can use this colab notebook but please make a copy to run the code.
+https://colab.research.google.com/drive/1_osIophTvGe-aKVLyV9mu1pCpp4vRuTk?usp=sharing
+
+
+
+Notebook contains multiple functions </br>
+1) spreproces_data: This function will performs prepocessing like replacing nans with mean values , standard scaling of the features, PCA and SMOTE for data augmentation, reshaping of the features. 
+2). preprocessing: This function will initialize the model, train the model and finally evaluates the model performance.
