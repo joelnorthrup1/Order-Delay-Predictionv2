@@ -16,7 +16,7 @@ Extracted data will stored as X_train and X_test in current directory
 
 #Step 2
 To train model, run following command. </br>
-**!python /content/drive/MyDrive/Final_Code1/training.py -d 5 -m '/content/drive/MyDrive/Final_Code1' **
+**!python /content/drive/MyDrive/Final_Code1/training.py -d 5 -m '/content/drive/MyDrive/Final_Code1'** </br>
 **Command takes two arguments </br>**
 **1.** First command line argument -d: It takes the threshold for the days delay. It can be 5,10,15 or 28 </br>
 **2.** Second command line argument -m: It takes the directory of the main folder of the code </br>
@@ -29,7 +29,7 @@ After running this commands, data will preprocessed and code will start training
 To train model on the notebook,
 
 you can use this colab notebook but please make a copy to run the code.
-**https://colab.research.google.com/drive/1QlTD2j0x38oV_G7cMb_dwetAeLOyN4UF?usp=sharing**
+**https://colab.research.google.com/drive/1QlTD2j0x38oV_G7cMb_dwetAeLOyN4UF?usp=sharing** </br>
  Data related to This Notebook
  https://drive.google.com/drive/folders/1-4QmG2FlHJuQsdn3UucdZsfI1tiGsB3q?usp=share_link
 
