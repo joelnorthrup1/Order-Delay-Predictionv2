@@ -26,15 +26,14 @@ After running this commands, data will preprocessed and code will start training
 
 
 
-To train model, set the path "https://drive.google.com/drive/folders/15dADrvanOm0QBDaYy6bktl15-ikeYJ2q?usp=share_link" in the following notebooks
-
-Training Notebook **Order_delay_Project3_Modified5(Model_Traing_3_6_Lookback_Dataset8_Training).ipynb**
-
-
-or 
+To train model on the notebook,
 
 you can use this colab notebook but please make a copy to run the code.
-https://colab.research.google.com/drive/1_osIophTvGe-aKVLyV9mu1pCpp4vRuTk?usp=sharing
+**https://colab.research.google.com/drive/1QlTD2j0x38oV_G7cMb_dwetAeLOyN4UF?usp=sharing**
+ Data related to This Notebook
+ https://drive.google.com/drive/folders/1-4QmG2FlHJuQsdn3UucdZsfI1tiGsB3q?usp=share_link
+
+
 
 
 
